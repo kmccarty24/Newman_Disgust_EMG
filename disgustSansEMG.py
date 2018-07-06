@@ -3,6 +3,7 @@ from random import shuffle
 import os
 
 
+
 def sassyGob(lst, format='png'):
     '''Returns a list of files if passed a file list'''
     return [x for x in (os.listdir(lst)) if format in x]

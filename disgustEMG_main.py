@@ -17,7 +17,6 @@ if not dlg.OK:  # did they push ok?
 
 age = info['age']
 
-
 personalImgDir = os.path.join(imgs, (info['participant'] + '\\'))
 perImgLst = os.listdir(personalImgDir)
 perImgLst
